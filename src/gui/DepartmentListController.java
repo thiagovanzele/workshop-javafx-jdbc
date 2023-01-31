@@ -40,7 +40,7 @@ public class DepartmentListController implements Initializable {
 	
 	private ObservableList<Department> obsList;
 	
-	public void setDepartmentSercice(DepartmentService service) {
+	public void setDepartmentService(DepartmentService service) {
 		this.service = service;
 	}
 	
