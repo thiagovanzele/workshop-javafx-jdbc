@@ -123,8 +123,8 @@ public class DepartmentFormController implements Initializable {
 			throw new IllegalStateException("Entidade é nula!");
 		}
 		txtId.setText(String.valueOf(entity.getId()));
-		// txtName.setText(entity.getName());
-		txtId.setText(entity.getId() == null ? "" : String.valueOf(entity.getId()));
+		txtName.setText(entity.getName());
+		//txtId.setText(entity.getId() == null ? "" : String.valueOf(entity.getId()));
 	}
 
 	private void setErrorMessages(Map<String, String> errors) {
